@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<body>
+<style>
+body{    background-color: whitesmoke;
+}
+input#search {
+    position: absolute;
+    left: 461px;
+    bottom: 6%;
+}
+input.sr {
+    position: absolute;
+    left: 294px;
+    bottom: 6%;
+}
+label {
+    font-size: 21px;
+    background-color: #e9ecef;
+    border-radius: .25rem;
+    padding: 18px;
+    margin: 1px;
+    width: -webkit-fill-available;
+    display: inline-block;
+}
+
+  label:hover {
+    background-color: #d5d7d8;
+}
+
+input[type="radio"]{
+    visibility:hidden;
+}
+h1{
+    text-align: center;
+    padding: 27px;
+}
+#next {
+    position: absolute;
+    right: 80px;
+    bottom: 5%;
+    font-size: 30px;
+    height: 53px;
+    width: 200px;
+    color: red;
+    border-radius: 12px;
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px transparent;
+}
+#prev {
+    position: absolute;
+    left: 50px;
+    bottom: 5%;
+    font-size: 30px;
+    height: 45px;
+    width: 200px;
+    color: red;
+    border-radius: 12px;
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px transparent;
+}
+</style>
+<script src="https://code.jquery.com/jquery-1.9.1.js"></script>
+<script src="data.js"></script>
+<h1 id='kitxva'></h1>
+<div id="pasuxebi" ></div>
+<div id='nav'>
+<input class="sr" type="text" name="" value="">
+<input id="search" type="submit"  value="search">
+<button id="prev" type="button" >წინა</button>
+<button id ="next" type="button" >შემდეგი</button>
+
+</body>
+</html>
